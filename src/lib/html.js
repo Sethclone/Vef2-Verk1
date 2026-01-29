@@ -34,3 +34,25 @@ export function generateQuestionCategoryHTML(title, questionsHTML) {
 
   return html;
 }
+
+export function generateIndexHtml() {
+  const html = /* HTML */ `
+    <html>
+      <head>
+        <script src="scripts.js" type="module"></script>
+      </head>
+      <body>
+          <h1>Velkominn, veldu flokk<h1>
+
+            <ul>
+              <li><a href='saga.html'>Saga.html</a></li>
+
+            </ul>            
+            <p>Veldu það sem þú vilt</p>
+        </div>
+      </body>
+    </html>
+  `;
+
+  return html;
+}
