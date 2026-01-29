@@ -50,7 +50,7 @@ async function main() {
   console.log(qualityHistoryQuestions)
   const output = qualityHistoryQuestions.map(generateQuestionHTML).join('\n');
   const path = './dist/saga.html';
-
+  fs.mkdir('./dist',)
   fs.writeFile(path,output,'utf-8',);
 
 }
